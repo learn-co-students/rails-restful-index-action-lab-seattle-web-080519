@@ -1,0 +1,9 @@
+<%i = 0%>
+<%students_string = ""%>
+<%while @students.length > i do%>
+<%students_string << @students[i].to_s + "\n"%>
+<%i += 1%>
+<%end%>
+
+<%= students_string %>
+
